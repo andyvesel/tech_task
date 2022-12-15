@@ -111,7 +111,7 @@ func ParseBugTrackingTicket(input []string) string {
 		}
 	}
 	fmt.Printf("Unique IDs: %s parsed\n", uniqueIDs)
-	return uniqueIDs[:len(uniqueIDs)-1]
+	return uniqueIDs
 }
 
 // writeToCSV writes a list of PRs to a CSV file
